@@ -76,6 +76,12 @@ img {
 .contact {
 	color: #F15B31;
 	letter-spacing: 1px;
+	border-bottom: 2px solid transparent;
+	margin: 0 5px;
+}
+
+.contact:hover {
+	border-color: #F15B31;
 }
 
 footer {
@@ -112,4 +118,21 @@ p {
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+
+.reset {
+	color: #F15B31;
+	font-family: "Raleway";
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.reset:hover {
+	border: 2px solid transparent;
+	background-color: #0D2C40;
+	color: #FFFFFF;
+}
+
+button {
+	font-size: 20px;
 }
